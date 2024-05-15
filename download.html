@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download App</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            width: 100%;
+        }
+        .button {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            border-radius: 50%;
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            text-align: center;
+            border: 2px solid #ccc;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .button img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 10px;
+        }
+        @media (min-width: 768px) {
+            .container {
+                flex-direction: row;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a class="button" href="https://apps.apple.com/it/app/unicas2go/id6478915627" target="_blank">
+            <img src="https://raw.githubusercontent.com/lozuponepace/unicas2go/main/applestore.png" alt="Apple Store">
+            <span>Download from Apple Store</span>
+        </a>
+        <a class="button" href="https://play.google.com/store/apps/details?id=com.lopatech.unicas2go" target="_blank">
+            <img src="https://raw.githubusercontent.com/lozuponepace/unicas2go/main/playstore.png" alt="Google Play Store">
+            <span>Download from Google Play</span>
+        </a>
+    </div>
+</body>
+</html>
